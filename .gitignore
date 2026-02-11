@@ -1,0 +1,16 @@
+# Node
+node_modules/
+backend/data/
+
+# Flutter
+.dart_tool/
+.packages
+build/
+mobile/.flutter-plugins
+mobile/.flutter-plugins-dependencies
+mobile/.dart_tool/
+mobile/build/
+
+# IDE
+.vscode/
+.idea/
