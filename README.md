@@ -59,6 +59,12 @@ Use `--dart-define=API_BASE_URL=http://10.0.2.2:8080` for Android emulator.
 
 ---
 
+
+### Optional: deploy backend on Vercel (fixes platform 404 routing)
+
+This repo includes `vercel.json` and `api/index.js` so Vercel routes all paths to the Express app.
+After deploy, opening your backend base URL should return the JSON service descriptor instead of a 404.
+
 ## API overview
 
 ### Driver
